@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(230, 230, 230);
+}
+.divlogin{
+    margin-bottom: 50px;;
+}
+
+.form{
+    width: 400px;
+    margin:auto;
+    padding-top:10px;
+}
+.card{
+    box-shadow: 1x 1x 5px rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+}
+.divlogin{
+    text-align: center;
+    font-family: Arial;
+    
+}
+img{  
+    margin:auto; 
+    height: 100px;
+}
+.titulo{
+    color:rgba(59,59,59);
+}
+.divgrupo{
+    margin-bottom: 10px;
+    font-family: Arial;
+}
+.divgrupo > label{
+    width: 100%;
+    color: rgb(59, 59, 59);
+    display: block;
+}
+.divgrupo > input{
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    padding: 5px;
+    
+}
+.divgrupo > button{
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #158b99, rgba(32, 32, 32, 0.74));
+    width: 100%;
+    padding: 10px;
+    color:white;
+    border: 0px;
+    outline: 0;
+
+}
+
+.copy{
+    text-align: center;
+    position: bottom;
+}
+
+
+
