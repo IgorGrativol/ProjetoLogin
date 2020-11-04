@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body{
+    background-color: #dddddd;
+}
+div#interface{
+    width: 900px;
+    background-color: white;
+    box-shadow: 1px 1px 10px #dddddd;
+    position: relative;
+    padding: 10px;
+    margin: -21px auto 0px auto;
+}
+header#cabecalho{
+    height: 230px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #dddddd;
+    
+}
+header#cabecalho img{
+    position: relative;
+    margin-top: 20px;
+    width: 25%;
+
+}
+header#cabecalho h1{
+    color: rgba(0, 0, 0, 0.900);
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
+nav#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -9px;
+    left: 450px;
+}
+nav#menu li{
+    font-family: Arial;
+    display:inline-block;
+    background-color: rgba(59, 59, 59, 0.596);
+    padding: 10px;
+    margin: 2px;
+    transition: 1s;
+}
+nav#menu h1{
+    display: none;
+}
+nav#menu a{
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+}
+nav#menu li:hover{
+    background-color: #158b99;
+    text-decoration: underline;
+}
+section#corpo {
+    font-family: 'Montserrat', sans-serif;
+}
+footer#rodape{
+    background-color: #dddddd;
+    clear:both;
+    border-top: 1px solid #dddddd;
+    padding: 10px;
+}
+footer#rodape p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(0, 0, 0, 0.900);
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - Gesso Ximenes</title>
+    <link rel="stylesheet" href="./styles/estilologin.css" />
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <form class="form" action="">
+        <div class="card">
+            <div class="divlogin">
+                <img class="Logo" src="GessoLogo.png" alt="" />
+            </div>
+
+            <h2>Login</h2>
+
+            <div class="divgrupo">
+                <label>Usuário </label>
+                <input type="text" name="txtlogin" id="txtlogin" placeholder="Informe seu usuário" required="required" />
+            </div>
+            <div class="divgrupo">
+                <label>Senha </label>
+                <input type="password" name="txtsenha" id="txtsenha" placeholder="Informe sua senha" required="required" />
+            </div>
+            <div class="remember">
+                <input type="checkbox" name="lembreme" id="lembreme">Lembre-me</input>
+            </div>
+            <div class="divgrupo">
+                <button type="submit" onclick='acessar()'> Acessar</button>
+            </div>
+        </div>
+    </form>
+
+    <footer>
+        <p class="copy">&copy; DevIgorGrativol</p>
+    </footer>
+</body>
+
+</html>
